@@ -1,0 +1,151 @@
+:root {   
+    --primary-color-dark: #343852;
+    --primary-color-light : #f18871;
+    --primary-transparent-dark-bg :  rgba(0, 0, 0, 0.25);
+    --primary-transparent-light-bg : rgba(233, 147, 102, 0.727);
+    --primary-shadow : 0px 10px 15px 10px rgb(0 0 0 / 15%);}
+
+* {    
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;}
+a {  
+    text-decoration: none;
+    color: var(--primary-color-light);}
+a:active { 
+    text-decoration: none;}
+a.exclude { 
+    color: var(--primary-color-dark);
+    text-decoration: underline;}
+hr {
+    border: 1px solid var(--primary-transparent-dark-bg);}
+nav {
+    color: var(--primary-color-light);
+    border-bottom: 1px solid var(--primary-color-light);
+    border-top: 1px solid var(--primary-color-light);
+    -webkit-backdrop-filter: blur(10px);  
+    backdrop-filter: blur(10px); }
+.nav-container {  
+    display: flex;
+    justify-content:start;
+    text-align: center;
+    margin: 15px 15px 15px 50px;}
+.nav-item {
+    margin: 0px 15px 0px 15px;
+    list-style: none;
+    padding: 10px;
+    border-radius: 5px;}
+.nav-item:hover {  
+    background-color: var(--primary-color-light);
+    color: var(--primary-color-dark);
+    cursor: pointer;
+    transition: 0.4s;
+    border-radius: 5px;}
+.main-content {
+    background-color: var(--primary-transparent-light-bg);
+    color: var(--primary-color-dark);
+    margin: 160px 75px 1px 75px;
+    padding : 25px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: var(--primary-shadow);}
+.main-content2 {
+    margin: 20px 75px 45px 75px;
+    background-color: var(--primary-transparent-light-bg);
+    color: var(--primary-color-dark);
+    padding : 25px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: var(--primary-shadow);}
+.occupation {
+    display: flex;
+    justify-content:center;
+    text-align: center;}
+.occupation .txt {  
+    margin: 5px;}
+.txt::after  {  
+    content: " |";}
+.bio {
+    padding: 1px 110px 1px 110px;}
+.skills-container {
+    display: flex;
+    align-items: center;}
+.skills {
+    background-color: var(--primary-transparent-light-bg);
+    box-shadow: var(--primary-shadow);
+    border-radius: 12px;
+    padding: 10px;
+    margin: 15px auto;
+    width: 200px;}
+.skills:hover {
+    cursor: pointer;
+    background-color: var(--primary-color-dark);
+    color: var(--primary-color-light);
+    transition: 0.4s;}
+.facebook-btn {
+    padding: 12px;
+    margin: 12px auto;
+    background-color: var(--primary-transparent-light-bg);
+    color: var(--primary-color-dark);
+    border-radius: 12px;
+    width: 200px;
+    box-shadow: var(--primary-shadow);}
+.faceboook-btn:hover{
+    background-color: var(--primary-color-dark);
+    color: var(--primary-color-light);
+    transition: 0.4s;}
+.instagram-btn {
+    padding: 12px;
+    margin: 12px auto;
+    background-color: var(--primary-transparent-light-bg);
+    color: var(--primary-color-dark);
+    border-radius: 12px;
+    width: 200px;
+    box-shadow: var(--primary-shadow);}
+.intagram-btn:hover{
+    background-color: var(--primary-color-dark);
+    color: var(--primary-color-light);
+    transition: 0.4s;}
+.linkedin-btn {
+    padding: 12px;
+    margin: 12px auto;
+    background-color: var(--primary-transparent-light-bg);
+    color: var(--primary-color-dark);
+    border-radius: 12px;
+    width: 200px;
+    box-shadow: var(--primary-shadow);}
+.linkedin-btn:hover{
+    background-color: var(--primary-color-dark);
+    color: var(--primary-color-light);
+    transition: 0.4s;}
+.github-btn {
+    padding: 12px;
+    margin: 12px auto;
+    background-color: var(--primary-transparent-light-bg);
+    color: var(--primary-color-dark);
+    border-radius: 12px;
+    width: 200px;
+    box-shadow: var(--primary-shadow);}
+.github-btn:hover{
+    background-color: var(--primary-color-dark);
+    color: var(--primary-color-light);
+    transition: 0.4s;}
+.email-btn {
+    padding: 12px;
+    margin: 12px auto;
+    background-color: var(--primary-transparent-light-bg);
+    color: var(--primary-color-dark);
+    border-radius: 12px;
+    width: 200px;
+    box-shadow: var(--primary-shadow);}
+.email-btn:hover{
+    background-color: var(--primary-color-dark);
+    color: var(--primary-color-light);
+    transition: 0.4s;}
+.featured-image {
+    border: 2px solid var(--primary-transparent-light-bg);
+    border-radius: 50%;
+    width: 30%;
+    max-height: 400px;
+    object-fit: cover;
+    object-position: center;}
+
